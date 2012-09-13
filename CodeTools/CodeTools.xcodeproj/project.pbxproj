@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2BE100216017290005A078A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE100116017290005A078A /* UIKit.framework */; };
+		B2BE100416017290005A078A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE100316017290005A078A /* Foundation.framework */; };
+		B2BE100616017290005A078A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE100516017290005A078A /* CoreGraphics.framework */; };
+		B2BE100C16017290005A078A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2BE100A16017290005A078A /* InfoPlist.strings */; };
+		B2BE100E16017290005A078A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE100D16017290005A078A /* main.m */; };
+		B2BE101216017290005A078A /* CodeToolControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE101116017290005A078A /* CodeToolControllerAppDelegate.m */; };
+		B2BE101516017290005A078A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BE101316017290005A078A /* MainStoryboard_iPhone.storyboard */; };
+		B2BE101816017290005A078A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BE101616017290005A078A /* MainStoryboard_iPad.storyboard */; };
+		B2BE101B16017290005A078A /* CodeToolControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE101A16017290005A078A /* CodeToolControllerViewController.m */; };
+		B2BE102316017290005A078A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE102216017290005A078A /* SenTestingKit.framework */; };
+		B2BE102416017290005A078A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE100116017290005A078A /* UIKit.framework */; };
+		B2BE102516017290005A078A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE100316017290005A078A /* Foundation.framework */; };
+		B2BE102D16017290005A078A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2BE102B16017290005A078A /* InfoPlist.strings */; };
+		B2BE103016017290005A078A /* CodeToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE102F16017290005A078A /* CodeToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2BE102616017290005A078A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2BE0FF41601728F005A078A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BE0FFC16017290005A078A;
+			remoteInfo = CodeTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2BE0FFD16017290005A078A /* CodeTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BE100116017290005A078A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2BE100316017290005A078A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2BE100516017290005A078A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2BE100916017290005A078A /* CodeTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeTools-Info.plist"; sourceTree = "<group>"; };
+		B2BE100B16017290005A078A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2BE100D16017290005A078A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2BE100F16017290005A078A /* CodeTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeTools-Prefix.pch"; sourceTree = "<group>"; };
+		B2BE101016017290005A078A /* CodeToolControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeToolControllerAppDelegate.h; sourceTree = "<group>"; };
+		B2BE101116017290005A078A /* CodeToolControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeToolControllerAppDelegate.m; sourceTree = "<group>"; };
+		B2BE101416017290005A078A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2BE101716017290005A078A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2BE101916017290005A078A /* CodeToolControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeToolControllerViewController.h; sourceTree = "<group>"; };
+		B2BE101A16017290005A078A /* CodeToolControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeToolControllerViewController.m; sourceTree = "<group>"; };
+		B2BE102116017290005A078A /* CodeToolsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeToolsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BE102216017290005A078A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2BE102A16017290005A078A /* CodeToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeToolsTests-Info.plist"; sourceTree = "<group>"; };
+		B2BE102C16017290005A078A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2BE102E16017290005A078A /* CodeToolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeToolsTests.h; sourceTree = "<group>"; };
+		B2BE102F16017290005A078A /* CodeToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2BE0FFA16017290005A078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE100216017290005A078A /* UIKit.framework in Frameworks */,
+				B2BE100416017290005A078A /* Foundation.framework in Frameworks */,
+				B2BE100616017290005A078A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BE101D16017290005A078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE102316017290005A078A /* SenTestingKit.framework in Frameworks */,
+				B2BE102416017290005A078A /* UIKit.framework in Frameworks */,
+				B2BE102516017290005A078A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2BE0FF21601728F005A078A = {
+			isa = PBXGroup;
+			children = (
+				B2BE100716017290005A078A /* CodeTools */,
+				B2BE102816017290005A078A /* CodeToolsTests */,
+				B2BE100016017290005A078A /* Frameworks */,
+				B2BE0FFE16017290005A078A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BE0FFE16017290005A078A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE0FFD16017290005A078A /* CodeTools.app */,
+				B2BE102116017290005A078A /* CodeToolsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BE100016017290005A078A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE100116017290005A078A /* UIKit.framework */,
+				B2BE100316017290005A078A /* Foundation.framework */,
+				B2BE100516017290005A078A /* CoreGraphics.framework */,
+				B2BE102216017290005A078A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2BE100716017290005A078A /* CodeTools */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE101016017290005A078A /* CodeToolControllerAppDelegate.h */,
+				B2BE101116017290005A078A /* CodeToolControllerAppDelegate.m */,
+				B2BE101316017290005A078A /* MainStoryboard_iPhone.storyboard */,
+				B2BE101616017290005A078A /* MainStoryboard_iPad.storyboard */,
+				B2BE101916017290005A078A /* CodeToolControllerViewController.h */,
+				B2BE101A16017290005A078A /* CodeToolControllerViewController.m */,
+				B2BE100816017290005A078A /* Supporting Files */,
+			);
+			path = CodeTools;
+			sourceTree = "<group>";
+		};
+		B2BE100816017290005A078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE100916017290005A078A /* CodeTools-Info.plist */,
+				B2BE100A16017290005A078A /* InfoPlist.strings */,
+				B2BE100D16017290005A078A /* main.m */,
+				B2BE100F16017290005A078A /* CodeTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2BE102816017290005A078A /* CodeToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE102E16017290005A078A /* CodeToolsTests.h */,
+				B2BE102F16017290005A078A /* CodeToolsTests.m */,
+				B2BE102916017290005A078A /* Supporting Files */,
+			);
+			path = CodeToolsTests;
+			sourceTree = "<group>";
+		};
+		B2BE102916017290005A078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE102A16017290005A078A /* CodeToolsTests-Info.plist */,
+				B2BE102B16017290005A078A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2BE0FFC16017290005A078A /* CodeTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BE103316017290005A078A /* Build configuration list for PBXNativeTarget "CodeTools" */;
+			buildPhases = (
+				B2BE0FF916017290005A078A /* Sources */,
+				B2BE0FFA16017290005A078A /* Frameworks */,
+				B2BE0FFB16017290005A078A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeTools;
+			productName = CodeTools;
+			productReference = B2BE0FFD16017290005A078A /* CodeTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2BE102016017290005A078A /* CodeToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BE103616017290005A078A /* Build configuration list for PBXNativeTarget "CodeToolsTests" */;
+			buildPhases = (
+				B2BE101C16017290005A078A /* Sources */,
+				B2BE101D16017290005A078A /* Frameworks */,
+				B2BE101E16017290005A078A /* Resources */,
+				B2BE101F16017290005A078A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BE102716017290005A078A /* PBXTargetDependency */,
+			);
+			name = CodeToolsTests;
+			productName = CodeToolsTests;
+			productReference = B2BE102116017290005A078A /* CodeToolsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2BE0FF41601728F005A078A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CodeToolController;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B2BE0FF71601728F005A078A /* Build configuration list for PBXProject "CodeTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2BE0FF21601728F005A078A;
+			productRefGroup = B2BE0FFE16017290005A078A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2BE0FFC16017290005A078A /* CodeTools */,
+				B2BE102016017290005A078A /* CodeToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2BE0FFB16017290005A078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE100C16017290005A078A /* InfoPlist.strings in Resources */,
+				B2BE101516017290005A078A /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2BE101816017290005A078A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BE101E16017290005A078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE102D16017290005A078A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2BE101F16017290005A078A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BE0FF916017290005A078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE100E16017290005A078A /* main.m in Sources */,
+				B2BE101216017290005A078A /* CodeToolControllerAppDelegate.m in Sources */,
+				B2BE101B16017290005A078A /* CodeToolControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BE101C16017290005A078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE103016017290005A078A /* CodeToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2BE102716017290005A078A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2BE0FFC16017290005A078A /* CodeTools */;
+			targetProxy = B2BE102616017290005A078A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2BE100A16017290005A078A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE100B16017290005A078A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2BE101316017290005A078A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE101416017290005A078A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2BE101616017290005A078A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE101716017290005A078A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2BE102B16017290005A078A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE102C16017290005A078A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2BE103116017290005A078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2BE103216017290005A078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2BE103416017290005A078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeTools/CodeTools-Prefix.pch";
+				INFOPLIST_FILE = "CodeTools/CodeTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2BE103516017290005A078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeTools/CodeTools-Prefix.pch";
+				INFOPLIST_FILE = "CodeTools/CodeTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2BE103716017290005A078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeTools.app/CodeTools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeTools/CodeTools-Prefix.pch";
+				INFOPLIST_FILE = "CodeToolsTests/CodeToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2BE103816017290005A078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeTools.app/CodeTools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeTools/CodeTools-Prefix.pch";
+				INFOPLIST_FILE = "CodeToolsTests/CodeToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BE0FF71601728F005A078A /* Build configuration list for PBXProject "CodeTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BE103116017290005A078A /* Debug */,
+				B2BE103216017290005A078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BE103316017290005A078A /* Build configuration list for PBXNativeTarget "CodeTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BE103416017290005A078A /* Debug */,
+				B2BE103516017290005A078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2BE103616017290005A078A /* Build configuration list for PBXNativeTarget "CodeToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BE103716017290005A078A /* Debug */,
+				B2BE103816017290005A078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2BE0FF41601728F005A078A /* Project object */;
+}
